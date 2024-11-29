@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://picsum.photos/id/178/1000/500);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-main {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+
+}
+
+.siderbox {
+    width: 20%;
+}
+
