@@ -14,10 +14,28 @@ body {
     width: 1400px;
     height: auto;
     margin: auto;
-
+    display: flex;
+    justify-content: space-between;
 }
 
-.siderbox {
+
+
+
+.siderbox1 {
     width: 20%;
 }
+
+.siderbox2 {
+    width: 20%;
+}
+
+.siderbox3 {
+    width: 20%;
+}
+
+.siderbox4 {
+    width: 20%;
+}
+
+
 
