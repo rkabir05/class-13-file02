@@ -20,22 +20,59 @@ body {
 
 
 
-
-.siderbox1 {
-    width: 20%;
-}
-
-.siderbox2 {
-    width: 20%;
-}
-
-.siderbox3 {
-    width: 20%;
-}
-
-.siderbox4 {
-    width: 20%;
+.slideritem {
+    width: 22%;
 }
 
 
+.ticker-main ul li a {
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+}
+
+
+
+.ticker li {
+    position: relative;
+}
+
+.ticker li:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    color: red;
+    left: -20px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+
+
+.ticker-main {
+    position: absolute;
+    bottom: 0;
+}
+
+.ticker-main .bx-wrapper {
+    margin-bottom: 0;
+    background-color: brown;
+}
+
+
+.ticker-main-2 {
+    position: absolute;
+    top: 0;
+}
+
+ul.ticker2 li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: wheat;
+}
+
+.ticker-main-2 .bx-wrapper {
+    background-color: blue;
+    margin-top: 0;
+}
 
